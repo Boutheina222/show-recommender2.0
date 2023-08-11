@@ -1,0 +1,130 @@
+
+body{
+    background-color: rgb(29, 29, 29);
+    font-size: 150%;
+    font-family: 'Handjet', cursive;
+    font-weight: bold;
+    font-size: 250%;
+    margin: 5%;
+    
+}
+.navbar{
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 200%;
+    color: azure;
+   
+}
+
+#header{
+    text-align: center;
+}
+#main{
+ 
+    text-shadow: 1px 4px 2px black;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 100%;
+    color: azure;
+    align-items: center;
+    gap: 10px;
+ 
+}
+#header{
+    color: rgb(60, 60, 60);
+
+}
+#agree{
+background-color: rgb(95, 160, 125);
+color: rgb(41, 74, 56);
+font-family: 'Handjet', cursive;
+font-weight: bolder;
+font-size: 60%;
+box-shadow: 1px 5px 1px rgb(19, 19, 19);
+}
+
+#disagree{ 
+background-color: rgb(160, 105, 95);
+color:rgb(78, 49, 44);
+font-family: 'Handjet', cursive;
+font-weight: bolder;
+font-size: 60%;
+box-shadow: 1px 5px 1px rgb(15, 15, 15);
+}
+
+#agree,#disagree{
+    font-weight: bolder;
+    width:17%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 0;
+ }
+
+
+a{
+text-decoration: none; 
+color: white;
+text-shadow: 1px 4px 2px black;
+
+}
+button{
+
+background-color:  rgb(113, 146, 128);
+color: rgb(47, 81, 57);
+font-family: 'Handjet', cursive;
+font-weight: bolder;
+font-size: 60%;
+box-shadow: 1px 5px 1px rgb(19, 19, 19);
+border: 0;
+font-weight: bolder;
+width:17%;
+padding: 1%;
+border-radius: 10px;
+
+}
+.next{
+background-color: rgb(237, 206, 148);
+color: rgb(121, 99, 52);
+
+}
+
+.movie-card{
+    background-color: rgb(183, 183, 183);
+    width: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    color: rgb(39, 39, 39);
+    text-shadow:none;
+    flex: 0 0 calc(33.33% - 2%); /* Set the flex basis to the same width as the width property */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    
+   
+
+
+}
+.movie-image{
+    width: 100%;
+    height: auto;
+    display: fit-content;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.movie-title{
+    text-align: center;
+    font-size: 40px;
+    margin: 2px;
+    padding: 15px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
